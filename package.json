@@ -1,0 +1,23 @@
+{
+  "name": "Book-List",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aliahmad-karimi/Book-List.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aliahmad-karimi/Book-List/issues"
+  },
+  "homepage": "https://github.com/Aliahmad-karimi/Book-List#readme",
+  "dependencies": {
+    "luxon": "^3.0.4"
+  }
+}
