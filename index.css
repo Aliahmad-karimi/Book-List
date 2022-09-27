@@ -11,8 +11,8 @@
 :root {
   --clr-dark: #000;
   --clr-white: #fff;
-  --bg-gradient: linear-gradient(0.15turn, rgb(17, 15, 15),  rgba(61, 60, 58, 0.674));
-  --btn-gradient: linear-gradient(to right, rgba(78, 76, 72, 0.674), rgb(17, 15, 15));
+  --bg-gradient: linear-gradient (0.15turn, rgb(17, 15, 15),  rgba(61, 60, 58, 0.674));
+  --btn-gradient: linear-gradient (to right, rgba(78, 76, 72, 0.674), rgb(17, 15, 15));
   --bg-fill: transparent;
 }
 
@@ -28,7 +28,6 @@ body {
 .gradient-style {
   text-align: center;
   background-image: var(--bg-gradient);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: var(--bg-fill);
 }
 
@@ -62,7 +61,6 @@ body {
   font-weight: 500;
   color: var(--clr-dark);
   background-image: var(--bg-gradient);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: var(--bg-fill);
 }
 
